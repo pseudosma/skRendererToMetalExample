@@ -1,12 +1,3 @@
-//
-//  Renderer.swift
-//  SKRendererToMetalExample
-//
-//  Created by DM on 10/6/22.
-//
-
-// Our platform independent renderer class
-
 import Metal
 import MetalKit
 import simd
@@ -288,6 +279,7 @@ class Renderer: NSObject, MTKViewDelegate {
         
         let aspect = Float(size.width) / Float(size.height)
         projectionMatrix = matrix_perspective_right_hand(fovyRadians: radians_from_degrees(65), aspectRatio:aspect, nearZ: 0.1, farZ: 100.0)
+        
     }
 }
 

@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  SKRendererToMetalExample
-//
-//  Created by DM on 10/6/22.
-//
-
 import UIKit
 
 @main

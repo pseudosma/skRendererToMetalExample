@@ -1,15 +1,8 @@
-//
-//  GameViewController.swift
-//  SKRendererToMetalExample
-//
-//  Created by DM on 10/6/22.
-//
-
 import UIKit
 import MetalKit
 
 // Our iOS specific view controller
-class GameViewController: UIViewController {
+class ExmpleViewController: UIViewController {
 
     var renderer: Renderer!
     var mtkView: MTKView!
@@ -18,7 +11,7 @@ class GameViewController: UIViewController {
         super.viewDidLoad()
 
         guard let mtkView = view as? MTKView else {
-            print("View of Gameview controller is not an MTKView")
+            print("View is not an MTKView")
             return
         }
 

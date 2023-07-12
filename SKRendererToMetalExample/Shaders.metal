@@ -1,12 +1,3 @@
-//
-//  Shaders.metal
-//  SKRendererToMetalExample
-//
-//  Created by DM on 10/6/22.
-//
-
-// File for Metal kernel and shader functions
-
 #include <metal_stdlib>
 #include <simd/simd.h>
 
